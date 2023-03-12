@@ -1,0 +1,14 @@
+[package]
+name = "bitcoin-block-finder"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4.1.8", features = ["derive"] }
+colored = "2"
+hex = "0.4.3"
+
+[[bin]]
+name = "find-block"
+path = "src/main.rs"
